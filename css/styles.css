@@ -26,13 +26,79 @@ h3 {
   color: #11999e;
 }
 
+hr {
+  border-color: #eaf6f6;
+  border-style: dotted none none none;
+  border-width: 8px;
+  width: 5%;
+}
+
+p {
+  color: #40514e;
+}
+
+.about-me-description {
+  color: #40514e;
+}
+
+.contact-me {
+  line-height: 2;
+  margin: 100px auto;
+  width: 50%;
+}
+
+.copyright {
+  color: #eaf6f6;
+  padding-top: 20px;
+}
+
+.contact-button {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 1.5rem;
+  font-weight: 100;
+  padding: 0 10px;
+  background-color: #11999E;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-button:hover {
+  background: #D9ADAD;
+  border: solid #D9ADAD 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.footer-link {
+  padding: 20px 20px;
+}
+
+.it {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
 .top-container {
   background-color: #d9adad;
   padding-top: 100px;
   position: relative;
-  }
+}
 
-.middle-container {}
+.profile {
+  line-height: 2;
+  margin: 100px auto;
+  width: 50%;
+}
 
 .profile-pic {
   height: 300px;
@@ -43,12 +109,29 @@ h3 {
   margin-top: 0;
 }
 
-.bottom-container {}
+.programming {
+  margin-right: 30px;
+  width: 25%;
+  float: left;
+}
+
+.bottom-container {
+  background-color: #d9adad;
+  line-height: 2;
+  padding: 30px 0;
+}
 
 .bottom-cloud {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
 }
 
 .top-cloud {
