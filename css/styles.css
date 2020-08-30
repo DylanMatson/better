@@ -94,11 +94,15 @@ p {
 }
 
 .top-container {
+  background-size: cover;
+  background-image: url("sky.png");
+  background-repeat: no-repeat;
   background-color: #d9adad;
   padding-top: 100px;
   position: relative;
 }
 .middle-container {
+  
 }
 .profile {
   line-height: 2;
@@ -133,6 +137,9 @@ p {
   bottom: 300px;
 }
 
+.spacer {
+  visibility: hidden;
+}
 .skill-row {
   line-height: 2;
   margin: 100px auto;
